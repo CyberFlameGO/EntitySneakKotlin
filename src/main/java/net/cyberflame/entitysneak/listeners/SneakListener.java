@@ -31,7 +31,7 @@ public class SneakListener implements Listener
                     closestEntity = entity;
                 }
             }
-            if (entities.size() > 0)
+            if (closestEntity != null)
             {
                 p.setPassenger(closestEntity);
             }
