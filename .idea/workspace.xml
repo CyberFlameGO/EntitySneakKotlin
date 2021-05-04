@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0094053-7f5a-4d43-b648-f55683a0f621" name="Default Changelist" comment="add MANIFEST.MF">
+    <list default="true" id="c0094053-7f5a-4d43-b648-f55683a0f621" name="Default Changelist" comment="various files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager" selected="Maven.EntitySneak [install]">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntitySneak [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -132,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619998054793</updated>
       <workItem from="1619998056034" duration="2822000" />
-      <workItem from="1620162065436" duration="225000" />
+      <workItem from="1620162065436" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2 files">
       <created>1619999473343</created>
@@ -155,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620000346980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="various files">
+      <created>1620170817624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620170817624</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +197,8 @@
     <MESSAGE value="Add 2 files" />
     <MESSAGE value="change if statement" />
     <MESSAGE value="add MANIFEST.MF" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MANIFEST.MF" />
+    <MESSAGE value="various files" />
+    <option name="LAST_COMMIT_MESSAGE" value="various files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

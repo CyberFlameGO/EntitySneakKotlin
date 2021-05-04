@@ -22,13 +22,13 @@ public class SneakListener implements Listener
             Collection<Entity> entities = w.getNearbyEntities(p.getLocation(), 4, 4, 4);
             double leastDistanceCurrently = Double.MAX_VALUE;
             Entity closestEntity = null;
-            for (Entity entity : entities)
+            for (Entity ent : entities)
             {
-                double distance = entity.getLocation().distance(p.getLocation());
-                if (distance < leastDistanceCurrently && entity.getUniqueId() != p.getUniqueId())
+                double distance = ent.getLocation().distance(p.getLocation());
+                if (distance < leastDistanceCurrently && ent.getUniqueId() != p.getUniqueId())
                 {
                     leastDistanceCurrently = distance;
-                    closestEntity = entity;
+                    closestEntity = ent;
                 }
             }
             if (closestEntity != null)
