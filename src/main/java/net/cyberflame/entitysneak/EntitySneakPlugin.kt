@@ -1,14 +1,12 @@
-package net.cyberflame.entitysneak;
+package net.cyberflame.entitysneak
 
-import net.cyberflame.entitysneak.listeners.SneakListener;
-import org.bukkit.Bukkit;
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
+import org.bukkit.Bukkit
+import net.cyberflame.entitysneak.listeners.SneakListener
 
-public class EntitySneakPlugin extends JavaPlugin
-{
-    public void onEnable()
-    {
-        Bukkit.getPluginManager().registerEvents(new SneakListener(), this);
-        System.out.println("EntitySneak was enabled successfully!");
+class EntitySneakPlugin : JavaPlugin() {
+    override fun onEnable() {
+        Bukkit.getPluginManager().registerEvents(SneakListener(), this)
+        println("EntitySneak was enabled successfully!")
     }
 }

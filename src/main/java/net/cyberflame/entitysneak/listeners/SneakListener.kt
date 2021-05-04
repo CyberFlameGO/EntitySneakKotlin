@@ -1,41 +1,31 @@
-package net.cyberflame.entitysneak.listeners;
+package net.cyberflame.entitysneak.listeners
 
-import java.util.Collection;
+import org.bukkit.event.player.PlayerToggleSneakEvent
+import org.bukkit.entity.Player
+import org.bukkit.World
+import org.bukkit.entity.Entity
+import org.bukkit.event.EventHandler
+import org.bukkit.event.Listener
 
-import org.bukkit.World;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerToggleSneakEvent;
-
-
-public class SneakListener implements Listener
-{
+class SneakListener : Listener {
     @EventHandler
-    public void playerSneaks(PlayerToggleSneakEvent e)
-    {
-        Player p = e.getPlayer();
-        if (p.isSneaking())
-        {
-            World w = p.getWorld();
-            Collection<Entity> entities = w.getNearbyEntities(p.getLocation(), 4, 4, 4);
-            double leastDistanceCurrently = Double.MAX_VALUE;
-            Entity closestEntity = null;
-            for (Entity ent : entities)
-            {
-                double distance = ent.getLocation().distance(p.getLocation());
-                if (distance < leastDistanceCurrently && ent.getUniqueId() != p.getUniqueId())
-                {
-                    leastDistanceCurrently = distance;
-                    closestEntity = ent;
+    fun playerSneaks(e: PlayerToggleSneakEvent) {
+        val p = e.player
+        if (p.isSneaking) {
+            val w = p.world
+            val entities = w.getNearbyEntities(p.location, 4.0, 4.0, 4.0)
+            var leastDistanceCurrently = Double.MAX_VALUE
+            var closestEntity: Entity? = null
+            for (ent in entities) {
+                val distance = ent.location.distance(p.location)
+                if (distance < leastDistanceCurrently && ent.uniqueId !== p.uniqueId) {
+                    leastDistanceCurrently = distance
+                    closestEntity = ent
                 }
             }
-            if (closestEntity != null)
-            {
-                p.setPassenger(closestEntity);
+            if (closestEntity != null) {
+                p.passenger = closestEntity
             }
-
         }
     }
 }

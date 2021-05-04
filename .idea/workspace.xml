@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0094053-7f5a-4d43-b648-f55683a0f621" name="Default Changelist" comment="various files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="c0094053-7f5a-4d43-b648-f55683a0f621" name="Default Changelist" comment="Kotlin test?">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/EntitySneakPlugin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EntitySneak_jar/EntitySneak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EntitySneak_jar/EntitySneak.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/EntitySneakPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/EntitySneak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/EntitySneak.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/EntitySneakPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/EntitySneakPlugin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/listeners/SneakListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/listeners/SneakListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-EntitySneak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-EntitySneak.jar" afterDir="false" />
@@ -148,7 +152,7 @@
       <updated>1619998054793</updated>
       <workItem from="1619998056034" duration="2822000" />
       <workItem from="1620162065436" duration="497000" />
-      <workItem from="1620171845918" duration="341000" />
+      <workItem from="1620171845918" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2 files">
       <created>1619999473343</created>
@@ -178,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620170817624</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kotlin test?">
+      <created>1620172330583</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620172330583</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +212,8 @@
     <MESSAGE value="change if statement" />
     <MESSAGE value="add MANIFEST.MF" />
     <MESSAGE value="various files" />
-    <option name="LAST_COMMIT_MESSAGE" value="various files" />
+    <MESSAGE value="Kotlin test?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin test?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
