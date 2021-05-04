@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c0094053-7f5a-4d43-b648-f55683a0f621" name="Default Changelist" comment="various files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/cyberflame/entitysneak/listeners/SneakListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EntitySneak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/EntitySneak.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/listeners/SneakListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/cyberflame/entitysneak/listeners/SneakListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-EntitySneak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-EntitySneak.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +70,13 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager" selected="Maven.EntitySneak [install]">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,6 +148,7 @@
       <updated>1619998054793</updated>
       <workItem from="1619998056034" duration="2822000" />
       <workItem from="1620162065436" duration="497000" />
+      <workItem from="1620171845918" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="Add 2 files">
       <created>1619999473343</created>
