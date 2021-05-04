@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: EntitySneakPlugin.java
+Main-Class: net.cyberflame.entitysneak.EntitySneakPlugin.java
 
